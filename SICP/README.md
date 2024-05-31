@@ -1,6 +1,6 @@
 # Structure and interpretation of computer programs (SICP)
 
-[MIT SICP 2nd ed.](../material/sicp.pdf)
+[MIT SICP 2nd ed.](../materials/sicp.pdf)
 
 <p align="center">
   <img src="../assets/sicp.jpg" />
