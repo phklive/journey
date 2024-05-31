@@ -6,7 +6,7 @@
 
 Links:
 
-- [MIT SICP 2nd ed.](../materials/sicp.pdf)
+- [MIT SICP 2nd ed.](materials/sicp.pdf)
 - [Brian Harvey video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
 - [Wikipedia](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
 - [PDF](https://web.mit.edu/6.001/6.037/sicp.pdf)

@@ -1,4 +1,4 @@
-# Lecture 01 - Functional Programming
+# Lecture 01 - Functional programming
 
 ## Summary
 
