@@ -35,7 +35,7 @@ Scheme uses evaluation rules to evalaluate expressions:
 
 The `define` keyword is called a `special form` and has a specific evaluation rule considering that if it followed the classical evaluation rule it's expression would error out telling us that`square` is an unbound variable.
 
-![function definition](assets/function_definition.jpeg)
+![function definition](../../assets/function_definition.jpeg)
 
 In Scheme we can also use `if` as a conditional keyword and predicates like `equal?`. By convention predicates end with a `?` Ex:
 

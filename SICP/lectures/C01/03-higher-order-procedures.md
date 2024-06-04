@@ -2,7 +2,11 @@
 
 ## Summary
 
+In this lecture we started learning about `functions as data` being able to abstract logic by passing functions as arguments to functions. We also learned about the domain and the range of functions: arguments and return
+
 ## Questions
+
+None
 
 ## Lecture
 

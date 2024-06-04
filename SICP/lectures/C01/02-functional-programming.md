@@ -34,7 +34,7 @@ Functions are interesting (this is why we use a functional language):
 - Functions can be stateless
 - Functions are great for parralelism
 
-![same functions different procedures](assets/same_functions_different_procedures.png)
+![same functions different procedures](../../assets/same_functions_different_procedures.png)
 
 In this examples we can see 2 functions `f` and `g`:
 

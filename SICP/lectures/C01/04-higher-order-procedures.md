@@ -2,6 +2,8 @@
 
 ## Summary
 
+In this lecture we learned about functions that can return other functions (they can be used to construct other functions). We also learned about the `let` keyword that let's us define local variables inside our procedures. We learned more about the power of `lambda` and to what extent can we use functions.
+
 ## Questions
 
 - How to deferentiate a procedure and a function?
@@ -17,7 +19,7 @@ You can build for loops, while loops, etc... with procedures.
 
 _First class data type:_
 
-![first class data type](assets/first_class_data_type.jpeg)
+![first class data type](../../assets/first_class_data_type.jpeg)
 
 Why is there more than 1 programming language?
 
