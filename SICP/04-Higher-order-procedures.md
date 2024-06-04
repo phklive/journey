@@ -35,6 +35,6 @@ As we pointed out previously higher order procedures are procedures that have a 
 
 We proved here that we can create a proc that returns another proc, hence `make-adder` is a higher order proc that is used to create other procs like `plus3` or `plus5`.
 
-We are learning about the `let` and `let*` keywords.
+We are learning about the `let` and `let*` keywords, they enable the creation of local variables, [learn more](https://www.cs.utexas.edu/ftp/garbage/cs345/schintro-v14/schintro_54.html).
 
 Ability to use procedures as data enables us to create any control mechanism we want.
