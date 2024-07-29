@@ -1,6 +1,6 @@
 # PHK CS & Maths Curriculum
 
-During this journey my goal is to build an optimized learning curriculum and document my learnings on the way.
+During this journey my goal is to build an optimised learning curriculum and document my learnings on the way.
 
 ## summary
 
