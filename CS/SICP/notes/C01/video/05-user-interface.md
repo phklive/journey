@@ -10,7 +10,7 @@ None
 
 ## Lecture
 
-![alan kay description](../../assets/alan_kay_1.png)
+![alan kay description](../../../assets/alan_kay_1.png)
 
 [Dr. Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) talks about user interfaces -> Doing with images make symbols: User interface design
 

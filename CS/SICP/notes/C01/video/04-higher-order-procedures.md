@@ -19,7 +19,7 @@ You can build for loops, while loops, etc... with procedures.
 
 _First class data type:_
 
-![first class data type](../../assets/first_class_data_type.jpeg)
+![first class data type](../../../assets/first_class_data_type.jpeg)
 
 Why is there more than 1 programming language?
 

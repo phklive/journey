@@ -24,4 +24,4 @@ Make sure that the domain and range of your function is coherent: it will always
 
 Big O notation and time comparisons.
 
-![time complexity](../../assets/time_complexity.jpeg)
+![time complexity](../../../assets/time_complexity.jpeg)

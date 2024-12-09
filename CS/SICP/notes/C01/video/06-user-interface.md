@@ -21,7 +21,7 @@ They have found 3 different stages of conciousness that they call `mentalities`:
 - Images
 - Symbols
 
-![mentalities](../../assets/mentalities.jpeg)
+![mentalities](../../../assets/mentalities.jpeg)
 
 They are thought to be developed in different stages by humans, childs start by acting, then start being dominated by images and then start thinking about meaning and symbols / logic. Another theory has added precision to the first one discovering that they are actually all 3 active at all times and they are different mediums of perception of life. Hence we can tap into them to perceive life. Some of them can be better mediums for doing or learning, for example most mathematicians do not use pure logic to do their craft but feel mathematics as something very concrete (Action > Symbols) even though we would think otherwise.
 
@@ -29,7 +29,7 @@ Try to feel, _Learning happens when attention is focused_ by removing interferan
 
 _The point of view is worth 80 IQ points_ logic needs to be used in the right context. Find the right context that will do most of the work for you, let you do your work. In CS it's called choose the right Data Structure before you start tinkering with the algorithm, most work will be already done for you.
 
-![Doing with Images makes Symbols](../../assets/doing_with_images_makes_symbols.jpeg)
+![Doing with Images makes Symbols](../../../assets/doing_with_images_makes_symbols.jpeg)
 
 All of these mentalities should be used together.
 

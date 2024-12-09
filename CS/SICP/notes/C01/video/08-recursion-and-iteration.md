@@ -13,13 +13,13 @@ In this lesson we discuss the differences in time and space complexity of recurs
 
 Time complexity
 
-![time complexity](../../assets/time_complexity.jpeg)
+![time complexity](../../../assets/time_complexity.jpeg)
 
 Space efficiency
 
 Is less relevant than when the book was written because the size of RAM was in KB's (now in GB or TB). If your program is less memory efficient it will be slower.
 
-![recursion vs iteration](../../assets/recursion_vs_iteration.jpeg)
+![recursion vs iteration](../../../assets/recursion_vs_iteration.jpeg)
 
 Recursive processes are less memory efficient than iterative processes in certain implementations. This is why the Scheme interpreter can notice recursive calls and see if there tail recursion call enabling optimizations.
 
