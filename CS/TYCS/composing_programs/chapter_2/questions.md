@@ -1,0 +1,2 @@
+- What is a `literal` in Python?
+- Why do most language implement both `while` and `for` loops?
