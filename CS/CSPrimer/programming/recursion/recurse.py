@@ -140,58 +140,78 @@ def gcd(a, b):
     s = a if a < b else b
     return s if g - s == 0 else gcd(s, g - s)
 
-# def filter_recursive(f, xs):
-#     """
-#     Given a predicate function f (a function which returns True or False) and a list
-#     xs, return a new list with only the items of xs where f(x) is True.
-#
-#     Below is an iterative approach. See if you can convert it to recursive, for practice.
-#
-#     def filter_iter(f, xs):
-#         out = []
-#         for x in xs:
-#             if f(x):
-#                 out.append(x)
-#         return out
-#
-#     alternative:
-#     return [x for x in xs if f(x)]
-#
-#     >>> filter_recursive(lambda x: x > 0, [-1, 3, -2, 5])
-#     [3, 5]
-#     >>> filter_recursive(lambda x: False, [1, 2])
-#     []
-#     """
-#     # TODO find base case
-#     return filter_recursive(f, xs[1:])
+def filter_recursive(f, xs):
+    """
+    Given a predicate function f (a function which returns True or False) and a list
+    xs, return a new list with only the items of xs where f(x) is True.
+
+    Below is an iterative approach. See if you can convert it to recursive, for practice.
+
+    def filter_iter(f, xs):
+        out = []
+        for x in xs:
+            if f(x):
+                out.append(x)
+        return out
+
+    alternative:
+    return [x for x in xs if f(x)]
+
+    >>> filter_recursive(lambda x: x > 0, [-1, 3, -2, 5])
+    [3, 5]
+    >>> filter_recursive(lambda x: False, [1, 2])
+    []
+    """
+    # if xs is empty return nothing
+    if len(xs) == 0:
+        return []
+
+    # create the sub array by filtering everything except last
+    sub = filter_recursive(f, xs[:-1])
+
+    # keep final element of xs
+    final_x = xs[-1]
+
+    # add x to array if f(x)
+    if f(final_x):
+        sub.append(final_x)
+
+    return sub
 
 
-# def reduce(f, xs, init=None):
-#     """
-#     Apply the function f cumulatively to the items of xs, reducing to a single value.
-#
-#     If initializer is provided, use it as the first value. Otherwise, use only the
-#     values in xs.
-#
-#     Below is an iterative approach. See if you can convert it to recursive, for practice.
-#
-#     def reduce_iter(f, xs, init=None):
-#         xs = iter(xs)
-#         out = next(xs) if init is None else init
-#         for x in xs:
-#             out = f(out, x)
-#         return out
-#
-#     >>> reduce(lambda acc, x: acc + x, [1, 2, 3, 4])
-#     10
-#     >>> def mirror(d, x):
-#     ...     d[x] = x
-#     ...     return d
-#     >>> reduce(mirror, ['foo', 'bar'], {})
-#     {'foo': 'foo', 'bar': 'bar'}
-#
-#     """
-#     pass
+def reduce(f, xs, init=None):
+    """
+    Apply the function f cumulatively to the items of xs, reducing to a single value.
+
+    If initializer is provided, use it as the first value. Otherwise, use only the
+    values in xs.
+
+    Below is an iterative approach. See if you can convert it to recursive, for practice.
+
+    def reduce_iter(f, xs, init=None):
+        xs = iter(xs)
+        out = next(xs) if init is None else init
+        for x in xs:
+            out = f(out, x)
+        return out
+
+    >>> reduce(lambda acc, x: acc + x, [1, 2, 3, 4])
+    10
+    >>> def mirror(d, x):
+    ...     d[x] = x
+    ...     return d
+    >>> reduce(mirror, ['foo', 'bar'], {})
+    {'foo': 'foo', 'bar': 'bar'}
+
+    """
+    def inner(f, xs, acc):
+        if len(xs) == 0:
+            return acc
+        return inner(f, xs[1:], f(acc, xs[0]))
+    
+    if init is None:
+        return inner(f, xs[1:], xs[0])
+    return inner(f, xs, init)
 
 
 def rabbit_pairs(n):
